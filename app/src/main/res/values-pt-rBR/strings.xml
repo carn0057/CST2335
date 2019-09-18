@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Laboratório 1</string>
+    <string name="app_name">Laboratório 2</string>
     <string name="hello_message">Oi Mundo!</string>
-    <string name="ButtonText">Botão</string>
+    <string name="ButtonText">CLIQUE AQUI</string>
+    <string name="look_my_gui">Veja minha GUI</string>
+    <string name="check_this_out">Cheque aqui</string>
+    <string name="switch_on_off">Liga/Desliga</string>
+    <string name="type_here">Digite aqui</string>
 
 </resources>
