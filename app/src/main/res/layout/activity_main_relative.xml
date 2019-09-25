@@ -60,7 +60,7 @@
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="textCapWords"
         android:hint="@string/type_here"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/flag"
