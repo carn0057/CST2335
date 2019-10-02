@@ -20,7 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
             super.onCreate(savedInstanceState);
             //setContentView(R.layout.activity_main_linear);
             //setContentView(R.layout.activity_main_grid);
-            setContentView(R.layout.activity_main_lab3);
+            setContentView(R.layout.activity_main);
 
             prefs = getSharedPreferences("email",MODE_PRIVATE);
             final EditText email = findViewById(R.id.type_email);

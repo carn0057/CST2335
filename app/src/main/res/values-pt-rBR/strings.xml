@@ -17,5 +17,8 @@
     <string name="click_to_take_a_picture">Clique no botão acima para tirar sua foto</string>
     <string name="type_your_password">Digite sua senha</string>
     <string name="your_profile">Seu perfil</string>
+    <string name="go_to_chat">Abra o chat</string>
+    <string name="send">Enviar</string>
+    <string name="receive">Receber</string>
 
 </resources>
