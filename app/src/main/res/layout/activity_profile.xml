@@ -10,7 +10,7 @@
         android:id="@+id/text_profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your profile"
+        android:text="@string/your_profile"
         android:textSize="20dp"
         />
     <TextView

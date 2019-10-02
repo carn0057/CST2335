@@ -23,7 +23,7 @@
         android:id="@+id/text_pswd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Type your password"
+        android:text="@string/type_your_password"
         />
     <EditText
         android:id="@+id/type_paswd"
