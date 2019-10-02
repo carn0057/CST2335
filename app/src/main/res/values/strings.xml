@@ -6,5 +6,13 @@
     <string name="check_this_out">Check this out</string>
     <string name="switch_on_off">Switch on/off</string>
     <string name="type_here">Type here</string>
+    <string name="enter_email">Enter your email address</string>
+    <string name="hint_email">Type email here</string>
+    <string name="login">LOGIN</string>
+    <string name="your_email">Your email:</string>
+    <string name="your_name">Your name:</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="your_picture">Your picture:</string>
+    <string name="click_to_take_a_picture">Click the button above to take a picture</string>
 
 </resources>
