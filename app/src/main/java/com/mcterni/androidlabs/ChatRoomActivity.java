@@ -58,6 +58,7 @@ public class ChatRoomActivity extends AppCompatActivity {
         if(!editText.getText().toString().equals("")){
             messages.add(new MyMessage(editText.getText().toString(), isSend));
             myAdapter.notifyDataSetChanged(); //update yourself
+            editText.setText("");
         }
     }
     private class MyMessage{
