@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout android:id="@+id/relative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ChatRoomActivity">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     <ListView
         android:id="@+id/list_chat"
@@ -12,6 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <Button
         android:id="@+id/button_send"
@@ -37,7 +44,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/type_here"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/button_send"
-        android:layout_toLeftOf="@id/button_receive"
+        android:layout_toEndOf="@id/button_send"
+        android:layout_toStartOf="@id/button_receive"
+        android:inputType="textCapSentences"
         />
 </RelativeLayout>
