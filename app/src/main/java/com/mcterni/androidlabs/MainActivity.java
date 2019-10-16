@@ -28,7 +28,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
             //use a Lambda function to set a click listener
             Button button = (Button) findViewById(R.id.button_login);
-            
+
             if(button != null){
                 button.setOnClickListener(clk -> {
                     Intent goToProfile = new Intent(MainActivity.this, ProfileActivity.class);
